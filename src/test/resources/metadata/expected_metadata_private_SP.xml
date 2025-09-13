@@ -60,7 +60,7 @@
   </md:Organization>
   <md:ContactPerson contactType="other">
     <md:Extensions>
-      <spid:VATNumber xmlns:spid="https://spid.gov.it/saml-extensions">IT01234567890</spid:VATNumber>
+      <spid:VATNumber xmlns:spid="https://spid.gov.it/saml-extensions">VATIT-01234567890</spid:VATNumber>
       <spid:FiscalCode xmlns:spid="https://spid.gov.it/saml-extensions">CF_manager</spid:FiscalCode>
       <spid:Private xmlns:spid="https://spid.gov.it/saml-extensions" />
     </md:Extensions>

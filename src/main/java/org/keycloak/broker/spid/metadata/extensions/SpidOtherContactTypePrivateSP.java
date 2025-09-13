@@ -9,7 +9,8 @@ class SpidOtherContactTypePrivateSP extends SpidOtherContactType {
         super(config);
 
         // VAT Number
-        addExtensionElement("spid:VATNumber", config.getVatNumber());
+        final String raw = config.getVatNumber();
+        addExtensionElement("spid:VATNumber", "VAT" + raw.substring(0, 2) + "-" + raw.substring(2));
         // Fiscal Code
         addExtensionElement("spid:FiscalCode", config.getFiscalCode());
 
